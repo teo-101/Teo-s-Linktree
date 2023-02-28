@@ -3,39 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet">
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="src\favicon.png">
   <link rel="stylesheet" href="style.css">
-  <base href="src\">
   <title>Linktree</title>
 </head>
 <body>
-  <div id="container"><br>
-    <img src="profilepic.png" width="150px" height="150px" id="pfp" onclick="pfpSpin()">
-
-    <div id="name">
-      <h1>Teodor Iacob</h1>
-    </div>
-
-    <div id="bio">
-      <h3>&bull;Informatics Liceum Grigore Moisil Iasi</h3>
-    </div><br>
-
-    <div id="links">
-      <a class="linkTree" id="instagram" href="https://www.instagram.com/teoiacob_/">
-        <b>INSTAGRAM</b>
+  <div id="main">
+    <div id="account">
+      <a id="signUp" href="signup.html">
+        SIGNUP
       </a>
 
-      <a class="linkTree" id="github" href="https://github.com/teo-101/Teo-s-Linktree">
-        <b>GITHUB</b>
-      </a>
-
-      <a class="linkTree" id="discord" onclick="alert('Opens link');">
-        <b>DISCORD</b>
+      <a id="login" href="login.html">
+        LOGIN
       </a>
     </div>
 
-    <img id="logo" src="logo_transparent.png" width="100px" height="100px">
+    <div id="container"><br>
+      <img src="src\profilepic.png" width="150px" height="150px" id="pfp" onclick="pfpSpin()">
 
+      <div id="name">
+        <h1>Teodor Iacob</h1>
+      </div>
+
+      <div id="bio">
+        <h3>&bull;Informatics Liceum Grigore Moisil Iasi</h3>
+      </div><br>
+
+      <div id="links">
+        <a class="linkTree" id="instagram" href="https://www.instagram.com/teoiacob_/">
+          <b>INSTAGRAM</b>
+        </a>
+
+        <a class="linkTree" id="github" href="https://github.com/teo-101/Teo-s-Linktree">
+          <b>GITHUB</b>
+        </a>
+
+        <a class="linkTree" id="discord" onclick="alert('Opens link');">
+          <b>DISCORD</b>
+        </a>
+      </div>
+      
+
+      <img id="logo" src="src\logo_transparent.png" width="100px" height="100px">
+
+    </div>
   </div>
   <script>
     function pfpSpin() {
