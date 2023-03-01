@@ -1,0 +1,104 @@
+/* Cascade Styling Sheet for signup.html */
+
+#backContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #0e2a47;
+    width: 35px;
+    height: 35px;
+    transition: all .2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#backContainer:hover {
+    transform: scale(1.25);
+    background-color: #17497d;
+}
+  
+#backButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    width: 30px;
+    height: 30px;
+}
+
+#signupTitle {
+    text-align: center;
+    color:#6CA6BD;
+}
+
+#signupPanel {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='400' height='450' preserveAspectRatio='none' viewBox='0 0 400 450'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1257%26quot%3b)' fill='none'%3e%3crect width='400' height='450' x='0' y='0' fill='url(%23SvgjsLinearGradient1258)'%3e%3c/rect%3e%3cuse xlink:href='%23SvgjsPath1259' x='30' y='30' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='30' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='30' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='30' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='30' y='270' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='30' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='30' y='390' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='30' y='450' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='90' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='90' y='90' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='90' y='150' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='90' y='210' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='90' y='270' stroke='rgba(108%2c 166%2c 189%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='90' y='330' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='90' y='390' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='90' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='150' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='150' y='90' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='150' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='150' y='210' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='150' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='150' y='330' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='150' y='390' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='150' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='210' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='210' y='90' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='210' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='210' y='210' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='210' y='270' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='210' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='210' y='390' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='210' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='270' y='30' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='270' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='270' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='270' y='210' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='270' y='270' stroke='rgba(108%2c 166%2c 189%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='270' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='270' y='390' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='270' y='450' stroke='rgba(108%2c 166%2c 189%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='330' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='330' y='90' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='330' y='150' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='330' y='210' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='330' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1263' x='330' y='330' stroke='rgba(108%2c 166%2c 189%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='330' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='330' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='390' y='30' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='390' y='90' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1262' x='390' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1261' x='390' y='210' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='390' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='390' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1260' x='390' y='390' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1259' x='390' y='450' stroke='rgba(108%2c 166%2c 189%2c 1)'%3e%3c/use%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1257'%3e%3crect width='400' height='450' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1258'%3e%3cstop stop-color='rgba(15%2c 54%2c 94%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cpath d='M-1 0 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0z' id='SvgjsPath1260'%3e%3c/path%3e%3cpath d='M-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0z'%3e%3c/path%3e%3cpath d='M-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' id='SvgjsPath1262'%3e%3c/path%3e%3cpath d='M2 -2 L-2 2z' id='SvgjsPath1259'%3e%3c/path%3e%3cpath d='M6 -6 L-6 6z' id='SvgjsPath1261'%3e%3c/path%3e%3cpath d='M30 -30 L-30 30z' id='SvgjsPath1263'%3e%3c/path%3e%3c/defs%3e%3c/svg%3e");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#signupPanel input {
+    border-radius: 25px;
+    height: 80px;
+    border: 0px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #0e2a47;
+    font-size: 25px;
+    text-align: center;
+    color:#6CA6BD;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#signupPanel input::placeholder {
+    color:#133a64;
+    opacity: 0.9;
+}
+
+#username {
+    order: 1;
+    margin-top: 100px;
+}
+
+#password {
+    order: 2;
+}
+
+#signupButton {
+    order: 3;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: #0e2a47;
+    color:#6CA6BD;
+    transition: all .2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#signupButton:hover {
+    background-color: #6CA6BD;
+    color:#0e2a47;
+    transform: scale(1.2);
+}
+
+#logo {
+    order:4;
+}
