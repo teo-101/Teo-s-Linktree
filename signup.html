@@ -3,12 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet">
-  <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" href="style.css">
-  <base href="src\">
+  <link rel="icon" href="src/favicon.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/signupStyle.css">
   <title>Linktree</title>
 </head>
 <body>
-    
+  <div id="main">
+    <div id="account">
+      <a id="signUp" href="signup.html">
+        SIGNUP
+      </a>
+
+      <a id="login" href="login.html">
+        LOGIN
+      </a>
+    </div>
+
+    <div id="backContainer">
+      <a id="backButton" type="button" href="index.html">
+        <img src="src/back.png" id="back">
+      </a>
+    </div>
+
+    <div id="container"><br>
+      <h1 id="signupTitle">WELCOME TO LINKTREE</h1><br><br>
+
+      <div id="signupPanel">
+        <input id="username" placeholder="Username">
+
+        <input id="password" type="password" placeholder="Password">
+
+        <a id="signupButton" type="button">
+          SIGNUP
+        </a>
+
+        <img id="logo" src="src\logo_transparent.png" width="100px" height="100px">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
