@@ -89,6 +89,7 @@
     border-radius: 30px;
     background-color: #0e2a47;
     color:#6CA6BD;
+    border: 0;
     transition: all .2s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -101,4 +102,23 @@
 
 #logo {
     order:4;
+}
+
+#helpPanel {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+  
+#help {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #6CA6BD;
+    transition: all .2s ease-in-out;
+}
+
+#help:hover {
+    transform: scale(1.2);
 }
