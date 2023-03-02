@@ -7,3 +7,4 @@
   2.Background Assets [https://bgjar.com/]<br>
   3.Icons -> free assets .png from google<br>
   4.Logo [https://www.shopify.com/tools/logo-maker]<br>
+  5.FOnt Century Gothic [https://fonts.cdnfonts.com/css/century-gothic]<br>
