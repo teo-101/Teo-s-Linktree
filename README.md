@@ -5,3 +5,5 @@
   # **Imported Assets:**<br>
   1.BoxShadow Property [https://getcssscan.com/css-box-shadow-examples]<br>
   2.Background Assets [https://bgjar.com/]<br>
+  3.Icons -> free assets .png from google<br>
+  4.Logo [https://www.shopify.com/tools/logo-maker]<br>
