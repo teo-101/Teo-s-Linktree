@@ -50,6 +50,11 @@ body {
     background-color: #2768af;
 }
 
+#account:hover > :not(:hover) {
+    opacity: 0.65;
+    scale: 85%;
+}
+
 #container {
     width: 500px;
     height: 700px;

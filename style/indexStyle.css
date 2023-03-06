@@ -44,6 +44,11 @@
     
 }
 
+#links:hover > :not(:hover) {
+    opacity: 0.9;
+    scale: 95%;
+}
+
 #links a{
     color:#6CA6BD;
     text-decoration: none;
